@@ -1,0 +1,129 @@
+/* ====== Title for index.html (Home Page) ====== */
+
+.welcome-box {
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.65fr 1fr;
+    grid-template-rows: 0.1fr 0.17fr;
+}
+
+.avatar-box {
+    padding-bottom: 150px;
+}
+
+.avatar {
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+}
+
+.hero {
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-right: 200px;
+}
+
+.sub-hero {
+    font-size: 30px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.btn-to-portfolio {
+    text-decoration: none;
+    color: #0D1B2A;
+    cursor: pointer;
+    background-color: #F2AA4CFF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.btn-to-portfolio:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2AA4CFF;
+    color: #F2AA4CFF;
+    background-color: #0D1B2A;
+}
+
+
+
+/* ====== Short information for index.html (Home Page) ====== */
+
+.info-box {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.about-box {
+    border-radius: 20px;
+    padding: 35px;
+    padding-top: 0;
+    background-color: #0A1722;
+}
+
+.about-title {
+    font-size: 40px;
+    color: #F2AA4CFF;
+}
+
+.about-text {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.about-btn {
+    text-decoration: none;
+    color: #0A1722;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #F2AA4CFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2AA4CFF;
+    background-color: #0A1722;
+    color: #F2AA4CFF;
+}
+
+.work-box {
+    border-radius: 20px;
+    padding: 35px;
+    padding-top: 0;
+    background-color: #0A1722;
+}
+
+.work-title {
+    font-size: 40px;
+    color: #F2AA4CFF;
+}
+
+.news-box {
+    border-radius: 20px;
+    padding: 35px;
+    padding-top: 0;
+    background-color: #0A1722;
+}
+
+.news-title {
+    font-size: 40px;
+    color: #F2AA4CFF;
+}

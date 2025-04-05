@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0D1B2A;
+    background-repeat: no-repeat;
+}
+
+nav, ul {
+    list-style: none;
+    margin: 0;
+}
